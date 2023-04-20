@@ -17,10 +17,10 @@ namespace ConsoleApp
                 Console.Clear();
                 Console.SetCursorPosition(x, 5);
 
-                if(x % 5 == 0)
+                if(x % 3 == 0)
                 {
                     Console.WriteLine("__@");
-                } else if (x % 5 == 1)
+                } else if (x % 3 == 1)
                 {
                     Console.WriteLine("_^@");
                 } else
